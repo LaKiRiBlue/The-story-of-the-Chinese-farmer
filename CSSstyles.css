@@ -1,0 +1,119 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    
+    color: darkblue;
+    line-height: 1.5;
+}
+
+a:link {
+    color: green;
+}
+  
+a:visited {
+    color: red;
+}
+  
+a:hover {
+    color: violet;
+}
+
+a:active {
+    color: blue;
+}
+a {
+    font-size:x-large;
+}
+body {
+    max-width: 90%;
+    margin-left: 130px;
+}
+.p1 {
+    width: 50%;
+    margin-left: 300px ;
+}
+q {
+    font-size: 100%;
+    font-style: italic;
+    background-color: gainsboro;
+    border-left: 1px solid firebrick;
+    padding-left: 30px;
+
+    
+}
+blockquote {
+    margin: 80px 0;
+}
+body {
+    
+background: -webkit-linear-gradient(90deg, rgb(255, 255, 255), rgb(116, 226, 221));
+background: linear-gradient(90deg, rgb(255, 255, 255), rgb(116, 226, 221));
+background-image: url("ornaments.png");
+background-repeat: no-repeat;
+background-position: right bottom;
+background-size: cover;
+
+}
+.farmer {
+    border-left: 3px solid rgb(2, 85, 250); 
+    font-size: 160%;
+    
+}
+.neighbors {
+    border-left: 3px solid turquoise;
+    font-size: 160%;
+}
+div > header {
+    background-color: yellow;
+  }
+  .good {
+    text-transform: uppercase;
+    color: green;
+  }
+  .bad {
+    text-transform: uppercase;
+    color: red;
+  }
+
+  table, tr, th {
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 30%;
+    padding-right: 15px;
+    height: 72.4px;
+  }
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  .flex-container {
+    display:flex;
+    justify-content: space-around;
+
+
+  } 
+
+  .notification{
+    background:#a9fcd5;
+    border:3px solid #6214ff;
+    width:200px;
+    font-weight:bold;
+    color: #060605;
+    position: fixed;
+    bottom: 80px;
+    right: 0;
+    padding: 20px;
+    
+  }
+  #image1 {
+   width: 615px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+  }
+  figcaption {
+    text-align: center;
+  }
